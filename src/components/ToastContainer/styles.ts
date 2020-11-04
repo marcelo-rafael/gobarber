@@ -39,7 +39,7 @@ export const Toast = styled.div<ToastProps>`
   display: flex;
 
   & + div {
-    magin-top: 8px;
+    margin-top: 8px;
   }
 
   ${props => toastTypeVariations[props.type || 'info']};
